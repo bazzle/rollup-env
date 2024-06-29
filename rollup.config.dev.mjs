@@ -10,8 +10,7 @@ export default {
     },
     plugins: [
         sass({
-            output: 'assets/styles/main.css',
-            sourceMap: true
+            output: 'assets/styles/main.css'
         }),
         terser()
     ]

@@ -1,0 +1,1 @@
+{"version":3,"file":"main.js","sources":["../../src/js/main.js"],"sourcesContent":["console.log('dev works');\nconsole.log('prod works');"],"names":["console","log"],"mappings":"yBAAAA,QAAQC,IAAI,aACZD,QAAQC,IAAI"}

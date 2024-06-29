@@ -6,9 +6,13 @@ export default {
     output: {
         file: 'assets/js/main.js',
         format: 'iife', // Suitable for <script> tags in browsers
+        sourcemap: true
     },
     plugins: [
-        sass({ output: 'assets/styles/main.css' }),
+        sass({
+            output: 'assets/styles/main.css',
+            sourceMap: true
+        }),
         terser()
     ]
 };

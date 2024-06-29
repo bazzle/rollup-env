@@ -1,5 +1,5 @@
 import sass from 'rollup-plugin-sass';
-import { terser } from 'rollup-plugin-terser';
+import terser from '@rollup/plugin-terser';
 import copy from 'rollup-plugin-copy';
 
 export default {
@@ -14,7 +14,7 @@ export default {
         copy({
             targets: [
                 {
-                    src: 'index.html',
+                    src: '*.html',
                     dest: 'dist'
                 },
                 {

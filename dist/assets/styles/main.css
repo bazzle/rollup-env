@@ -1,4 +1,8 @@
 body {
-  background-color: #82ae0a;
+  color: orange !important;
+}
+
+body {
+  background-color: #8960ca;
   font-family: Arial, sans-serif;
 }

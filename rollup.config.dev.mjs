@@ -1,5 +1,5 @@
 import sass from 'rollup-plugin-sass';
-import { terser } from 'rollup-plugin-terser';
+import terser from '@rollup/plugin-terser';
 
 export default {
     input: 'src/index.js',

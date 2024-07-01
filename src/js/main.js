@@ -1,2 +1,3 @@
-console.log('dev works');
-console.log('prod works');
+import { greeting } from './modules/mymodule.mjs';
+
+greeting();

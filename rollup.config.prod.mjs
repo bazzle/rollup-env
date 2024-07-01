@@ -6,7 +6,8 @@ export default {
     input: 'src/index.js',
     output: {
         file: 'dist/assets/js/main.js',
-        format: 'iife', // Suitable for <script> tags in browsers
+        format: 'iife',
+        name: 'ProdBundle'
     },
     plugins: [
         sass({ output: 'dist/assets/styles/main.css' }),

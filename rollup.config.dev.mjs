@@ -5,8 +5,9 @@ export default {
     input: 'src/index.js',
     output: {
         file: 'assets/js/main.js',
-        format: 'iife', // Suitable for <script> tags in browsers
-        sourcemap: true
+        format: 'iife',
+        sourcemap: true,
+        name: 'DevBundle'
     },
     plugins: [
         sass({

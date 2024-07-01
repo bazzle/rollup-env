@@ -6,7 +6,7 @@
     "dev": "rollup -w -c 'rollup.config.dev.mjs'",
     "build": "rollup -c 'rollup.config.prod.mjs'",
     "browser-sync": "browser-sync start --config 'bs-config.js'",
-    "serve": "concurrently \"yarn dev\" \"yarn browser-sync\""
+    "watch": "concurrently \"yarn dev\" \"yarn browser-sync\""
 
   },
   "devDependencies": {

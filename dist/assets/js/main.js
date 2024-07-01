@@ -1,1 +1,1 @@
-!function(){"use strict";console.log("dev works"),console.log("prod works")}();
+!function(){"use strict";console.log("hello")}();

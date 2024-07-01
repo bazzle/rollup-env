@@ -1,1 +1,1 @@
-{"version":3,"file":"main.js","sources":["../../src/js/modules/mymodule.mjs"],"sourcesContent":["export function greeting(){\n\tconsole.log('hello');\n}"],"names":["console","log"],"mappings":"yBACCA,QAAQC,IAAI"}
+{"version":3,"file":"main.js","sources":["../../src/js/modules/mymodule.js"],"sourcesContent":["export function greeting(){\n\tconsole.log('hello');\n}"],"names":["console","log"],"mappings":"yBACCA,QAAQC,IAAI"}

@@ -1,3 +1,3 @@
-import { greeting } from './modules/mymodule.mjs';
+import { greeting } from './modules/mymodule.js';
 
 greeting();
